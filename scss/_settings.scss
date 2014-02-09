@@ -36,9 +36,9 @@
 // $total-columns: 12;
 
 // We use these to control various global styles
-// $body-bg: #fff;
-// $body-font-color: #222;
-// $body-font-family: "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
+$body-bg: #f3f3f3;
+$body-font-color: #222;
+$body-font-family: "Anaheim", "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
 // $body-font-weight: normal;
 // $body-font-style: normal;
 
@@ -51,12 +51,12 @@
 // $default-float: left;
 
 // We use these as default colors throughout
-// $primary-color: #008CBA;
-// $secondary-color: #e7e7e7;
-// $alert-color: #f04124;
-// $success-color: #43AC6A;
-// $warning-color: #f08a24;
-// $info-color: #a0d3e8;
+$primary-color: $blue;
+$secondary-color: $base3;
+$alert-color: $red;
+$success-color: $green;
+$warning-color: $orange;
+$info-color: $cyan;
 
 // We use these to make sure border radius matches unless we want it different.
 // $global-radius: 3px;
@@ -113,7 +113,7 @@
 // $include-html-type-classes: $include-html-classes;
 
 // We use these to control header font styles
-// $header-font-family: $body-font-family;
+$header-font-family: 'Yanone Kaffeesatz', sans-serif;
 // $header-font-weight: 300;
 // $header-font-style: normal;
 // $header-font-color: #222;

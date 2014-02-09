@@ -1,3 +1,4 @@
 name: Borgström
 markdown: redcarpet
 pygments: true
+timezone: America/Toronto
