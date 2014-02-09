@@ -1,1 +1,11 @@
+# jekyll build dir
 _site
+
+# vim swap files
+.*.sw*
+
+# os x cruft
+*.DS_Store
+
+# foundation node stuff, only needed to build the site
+node_modules/*
