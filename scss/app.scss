@@ -14,7 +14,17 @@
     border-left: 1px solid #ddd;
 }
 
-div.highlight {
+#disqus {
+    margin-top: 1.25rem;
+}
+
+.highlight {
     margin-bottom: 1.25rem;
     padding: 0.5rem;
+
+    overflow-x: scroll;
+
+    code {
+        color: #93a1a1 !important;
+    }
 }
