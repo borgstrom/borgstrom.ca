@@ -6,10 +6,34 @@ title: Borgström
 <div class="row">
     <div class="small-12 large-8 columns">
         <h2>Posts</h2>
-        {% for post in site.posts %}
-        <h3><a href="{{ post.url }}">{{ post.title }}</a></h3>
-        <span>{{ post.date | date_to_string }}</span>
+        {% for post in paginator.posts %}
+        <h3 class="post-listing"><a href="{{ post.url }}">{{ post.title }}</a></h3>
+        <div class="post-date">{{ post.date | date_to_string }}</div>
         {% endfor %}
+
+        <ul class="pagination">
+            {% if paginator.previous_page %}
+            <li class="arrow"><a href="/page{{ paginator.previous_page }}">&laquo;</a></li>
+            {% else %}
+            <li class="arrow unavailable"><a href="">&laquo;</a></li>
+            {% endif %}
+
+            {% for page in (1..paginator.total_pages) %}
+            {% if page == paginator.page %}
+            <li class="current"><a href="">{{ page }}</a></li>
+            {% elsif page == 1 %}
+            <li><a href="{{ '/' | prepend: site.baseurl | replace: '//', '/' }}">{{ page }}</a></li>
+            {% else %}
+            <li><a href="{{ site.paginate_path | prepend: site.baseurl | replace: '//', '/' | replace: ':num', page }}">{{ page }}</a></li>
+            {% endif %}
+            {% endfor %}
+
+            {% if paginator.next_page %}
+            <li class="arrow"><a href="/page{{ paginator.next_page }}">&raquo;</a></li>
+            {% else %}
+            <li class="arrow unavailable"><a href="">&raquo;</a></li>
+            {% endif %}
+        </ul>
     </div>
 
     <div class="small-12 large-4 columns" id="projects">

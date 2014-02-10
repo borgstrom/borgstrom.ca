@@ -2,6 +2,13 @@
 @import "settings";
 @import "foundation";
 
+#footer {
+    margin-top: 3em;
+    font-size: 0.8rem;
+    padding-bottom: 2em;
+    text-align: right;
+}
+
 #icon-links {
     font-size: 1.2em;
 
@@ -27,4 +34,12 @@
     code {
         color: #93a1a1 !important;
     }
+}
+
+h3.post-listing {
+    margin-bottom: 0;
+}
+
+div.post-date {
+    margin-bottom: 1.25rem;
 }

@@ -2,6 +2,8 @@ name: Borgström
 pygments: true
 timezone: America/Toronto
 
+paginate: 10
+
 markdown: redcarpet
 redcarpet:
   extensions: ["autolink", "smart"]
