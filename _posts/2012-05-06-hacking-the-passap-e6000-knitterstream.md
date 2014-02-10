@@ -2,7 +2,7 @@
 layout: post
 title: Hacking the Passap E6000 - control panel & serial interface
 date: 2012-05-06 09:20
-disqus_identifier: 20180956227
+disqus_identifier: 22513138258
 ---
 
 ![Hacked Passap E6000 Control Panel](/assets/knitterstream/control-panel.jpg)
