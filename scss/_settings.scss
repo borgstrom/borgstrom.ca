@@ -116,7 +116,7 @@ $info-color: $cyan;
 $header-font-family: 'Yanone Kaffeesatz', sans-serif;
 // $header-font-weight: 300;
 // $header-font-style: normal;
-// $header-font-color: #222;
+$header-font-color: #222;
 // $header-line-height: 1.4;
 // $header-top-margin: .2rem;
 // $header-bottom-margin: .5rem;
@@ -139,7 +139,7 @@ $header-font-family: 'Yanone Kaffeesatz', sans-serif;
 
 // A general <small> styling
 // $small-font-size: 60%;
-// $small-font-color: scale-color($header-font-color, $lightness: 35%);
+$small-font-color: scale-color($header-font-color, $lightness: 40%);
 
 // We use these to style paragraphs
 // $paragraph-font-family: inherit;

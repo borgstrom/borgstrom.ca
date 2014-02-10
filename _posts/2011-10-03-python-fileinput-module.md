@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Python - fileinput module
+title: "Python: fileinput module"
 date: 2011-10-03 18:31
 disqus_identifier: 10995017494
 ---

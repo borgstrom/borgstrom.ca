@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Git - fetch, don't pull
+title: "Git: fetch, don't pull"
 date: 2011-01-05 11:33
 disqus_identifier: 2610217072
 ---
