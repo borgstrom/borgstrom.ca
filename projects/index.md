@@ -3,4 +3,4 @@ layout: page
 title: Projects
 ---
 
-Can I use `markdown` here?
+TODO add specifics about projects here
