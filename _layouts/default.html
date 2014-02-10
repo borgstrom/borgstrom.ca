@@ -6,17 +6,19 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <title>{{ page.title }} - Borgström</title>
         <link href='http://fonts.googleapis.com/css?family=Anaheim|Yanone+Kaffeesatz' rel='stylesheet' type='text/css'>
-        <link rel="stylesheet" href="css/app.css" />
-        <link rel="stylesheet" href="fonts/foundation-icons/foundation-icons.css" />
-        <script src="bower_components/modernizr/modernizr.js"></script>
+        <link rel="stylesheet" href="{{ site.url }}/css/app.css" />
+        <link rel="stylesheet" href="{{ site.url }}/css/syntax.css" />
+        <link rel="stylesheet" href="{{ site.url }}/fonts/foundation-icons/foundation-icons.css" />
+        <script src="{{ site.url }}/bower_components/modernizr/modernizr.js"></script>
     </head>
     <body>
         <div class="row">
             <div class="small-12 columns">
-                <h1 class="title"><a href="/">{{ site.name }}</a></h1>
+                <h1 class="title"><a href="{{ site.url }}/">{{ site.name }}</a></h1>
                 <ul class="inline-list" id="icon-links">
-                    <li><a href="about.html"><i class="fi-torso-business"></i>&nbsp;About</a></li>
-                    <li>•</li>
+                    <li><a href="{{ site.url }}/index.html"><i class="fi-crown"></i>&nbsp;Home</a></li>
+                    <li><a href="{{ site.url }}/about.html"><i class="fi-torso-business"></i>&nbsp;About</a></li>
+                    <li>&mdash;</li>
                     <li><a href="https://github.com/borgstrom"><i class="fi-social-github"></i>&nbsp;GitHub</a></li>
                     <li><a href="http://ca.linkedin.com/in/borgstrom/"><i class="fi-social-linkedin"></i>&nbsp;LinkedIn</a></li>
                     <li><a href="https://twitter.com/borgstr"><i class="fi-social-twitter"></i>&nbsp;Twitter</a></li>
@@ -25,8 +27,8 @@
             <hr>
         </div>
         {{ content }}
-        <script src="bower_components/jquery/jquery.js"></script>
-        <script src="bower_components/foundation/js/foundation.min.js"></script>
-        <script src="js/app.js"></script>
+        <script src="{{ site.url }}/bower_components/jquery/jquery.js"></script>
+        <script src="{{ site.url }}/bower_components/foundation/js/foundation.min.js"></script>
+        <script src="{{ site.url }}/js/app.js"></script>
     </body>
 </html>
