@@ -3,7 +3,6 @@ layout: post
 title: Making a bootable USB key from an .iso image on Mac OS X
 date: 2010-10-14 14:10
 disqus_identifier: 1314205955
-disqus_url: http://evan.borgstrom.ca/post/1314205955/osx-bootable-usb-from-iso
 ---
 
 #### UPDATE - July 4th, 2012
