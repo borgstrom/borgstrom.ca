@@ -2,6 +2,10 @@
 @import "settings";
 @import "foundation";
 
+div.post a {
+    border-bottom: 1px lighten($primary-color, 40%) solid;
+}
+
 #footer {
     margin-top: 3em;
     font-size: 0.8rem;
